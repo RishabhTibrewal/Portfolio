@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+    gap: 2rem;
+    position: fixed;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    font-size: large;
+    font-family: helvetica;
+    text-decoration: none;
+    
+}
+a{
+    color: azure;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    position: relative;
+    padding-top: 6rem;
+    height: 100vh;
+    padding-left:3rem ;
+    padding-right: 3rem;
+    padding-top: 8rem;
+    font-family: 'Dancing Script', cursive;
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    
+    
+    /* padding: 20px; */
+    /* background-image: url("./assets/home-img.jpg"); */
+    /* background-size:1300px 700px; */
+}
+
+img {
+    margin-left: 5rem;
+    border-radius: 50%;
+}
+
+h4{
+    margin-left: 10rem;
+    /* margin-top: 10rem; */
+    font-size: 4rem;
+}
+
+  
+.data > p{
+    margin-left: 10rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: helvetica;
+}
+
+
+
+.about{
+    padding-top: 5rem;
+    height:100vh;
+    padding-left:2rem ;
+    padding-right: 3rem;
+    padding-bottom: auto;
+    
+}
+.about>h4{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    list-style: none;
+}
+
+.nestedabout {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.nestedabout > p{
+    font-size: 1.8rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-family: helvetica;
+    margin-top: 2rem;
+}
+
+/* .skills{
+    font-size: 30px;
+    height: 50vh;
+    padding-left:3rem ;
+    padding-right: 3rem;
+} */
+
+.contacts{
+    padding-top: 6rem;
+    height: 70vh;
+    font-size: 30px;
+    padding-left:3rem ;
+    padding-right: 3rem;
+    margin-top: 12rem;
+    background-image: -webkit-linear-gradient(0deg, #000000 0%, #434343 100%);
+    color:azure;
+} 
+
+.nestedcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+.contacts > h4{
+    text-decoration: underline;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.info{
+    
+    display: flex;
+    flex-direction:column;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    font-family: helvetica;
+}
+
+.links{
+    margin-top: 10rem;
+}
