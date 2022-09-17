@@ -6,6 +6,9 @@
     box-sizing: border-box;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 .nav{
@@ -99,6 +102,8 @@ h4{
     margin-top: 2rem;
 }
 
+
+
 /* .skills{
     font-size: 30px;
     height: 50vh;
@@ -141,4 +146,9 @@ h4{
 
 .links{
     margin-top: 10rem;
+}
+
+@media only screen and (max-width:600px) {
+
+    
 }
